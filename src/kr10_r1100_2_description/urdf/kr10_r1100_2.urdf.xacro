@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- KUKA KR10 R1100-2 (KR AGILUS)
+     Modelo cinematico y mallas tomados de kuka_robot_descriptions/kuka_agilus_support
+     (https://github.com/kroshu/kuka_robot_descriptions, Apache-2.0, ver LICENSE).
+     Se deja solo la descripcion del robot, sin el bloque ros2_control del driver real:
+     el moveit_config del equipo agrega su propio ros2_control con el Setup Assistant. -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kr10_r1100_2">
+  <xacro:include filename="$(find kr10_r1100_2_description)/urdf/kr10_r1100_2_macro.xacro"/>
+
+  <xacro:arg name="prefix" default=""/>
+
+  <link name="world"/>
+
+  <xacro:kuka_kr10_r1100_2_robot prefix="$(arg prefix)" package_name="kr10_r1100_2_description"/>
+
+  <joint name="$(arg prefix)world-base_link" type="fixed">
+    <parent link="world"/>
+    <child link="$(arg prefix)base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
