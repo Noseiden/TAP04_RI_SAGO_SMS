@@ -2,7 +2,7 @@ clear all
 clc
 close all
 %% KUKA KR10 R1100-2 - Parte 3: IK de MoveIt2 (KDL) vs modelo DH
-% 1) ros2 run kr10_taller ik_poses  -> pide a MoveIt la IK y guarda resultados/ik_resultados.json
+% 1) python3 scripts/ik_poses.py -> pide a MoveIt la IK y guarda resultados/ik_resultados.json
 % 2) Aqui esos angulos entran al modelo DH (modificado / Craig, igual que Simulacion_dh.m)
 % 3) Se compara T_DH contra la pose objetivo y contra la FK de MoveIt
 repo = fileparts(fileparts(mfilename('fullpath')));

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kr10_jacobiano_moveit</name>
+  <version>0.1.0</version>
+  <description>Parte 5: Jacobiano del KR10 R1100-2 con RobotState::getJacobian() de MoveIt2</description>
+  <maintainer email="santiago.machado@eia.edu.co">SMS</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning</depend>
+  <depend>eigen</depend>
+  <exec_depend>kr10_r1100_2_moveit_config</exec_depend>
+  <exec_depend>moveit_configs_utils</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

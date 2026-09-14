@@ -3,7 +3,7 @@ project(kr10_r1100_2_description)
 
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY urdf meshes launch rviz
+install(DIRECTORY urdf meshes
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
