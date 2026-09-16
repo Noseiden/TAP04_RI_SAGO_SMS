@@ -10,24 +10,25 @@ close all;
 
 % Longitudes de los eslabones medidas sobre los ejes X.
 a01 = 0;
-a12 = 25;
-a23 = 560;
+a12 = 260;
+a23 = 680;
 a34 = 35;
 a45 = 0;
 a56 = 0;
 
 
 % Desplazamientos entre sistemas coordenados.
-S1 = 400;
+S1 = 675;
 S2 = 0;
 S3 = 0;
-S4 = 515;
+S4 = 670;
 S5 = 0;
-S6 = 80;
+S6 = 115;
 
 
 % Ángulos de torsión entre los ejes de las articulaciones.
 % Se convierten de grados a radianes para realizar los cálculos.
+
 alpha01 = deg2rad(0);
 alpha12 = deg2rad(-90);
 alpha23 = deg2rad(0);

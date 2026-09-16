@@ -26,6 +26,8 @@ xlim(ax,[-1250 1350]);
 ylim(ax,[-1250 1250]);
 zlim(ax,[-200 1600]);
 
+while true
+    
 for i = 1:n
     [T06, Tglobal] = cinematicaDirecta(Qtray(i,:).', robot);
     puntos = zeros(3,7);
