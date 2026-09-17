@@ -1,4 +1,4 @@
-# TAP02_RI_SMS_SGO – Pick-and-place con KUKA KR10 R1100-2 en ROS2 + MoveIt2
+# TAP02_RI_SAGO_SMS – Pick-and-place con KUKA KR10 R1100-2 en ROS2 + MoveIt2
 
 Universidad EIA · Robótica Industrial · Taller ROS2/MoveIt2 (Parcial 2) · Autores: SMS, SGO
 
