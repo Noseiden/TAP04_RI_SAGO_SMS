@@ -21,7 +21,7 @@ hZ = plot3(ax,nan,nan,nan,'b','LineWidth',2);
 xlabel(ax,'X [mm]');
 ylabel(ax,'Y [mm]');
 zlabel(ax,'Z [mm]');
-title(ax,'Trayectoria del KUKA KR10 R1100-2');
+title(ax,'Trayectoria del KUKA KR06');
 xlim(ax,[-1250 1350]);
 ylim(ax,[-1250 1250]);
 zlim(ax,[-200 1600]);
